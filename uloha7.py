@@ -1,8 +1,5 @@
-x= float(input("zadaj prve cislo"))
-y = float(input("zadaj druhe cislo"))
-if x>y:
-    print("prve cislo je vacsie")
-elif x<y:
-    print("druhe cislo je vacsie")
-else:
-    print("cisla su rovnake")
+x= int(input("zadaj rozsah"))
+for i in range(1,x+1):
+    if i%3==0:
+        print(i)
+

@@ -1,7 +1,3 @@
-x= int(input("napis cislo"))
-if x>0:
-    print("cislo je kladne")
-elif x<0:
-    print("cislo je zaporne")
-else:
-    print("cislo je 0");
+for i in range(1,21):
+    if i % 2 ==0:
+        print(i)

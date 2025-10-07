@@ -1,5 +1,6 @@
-x = int(input("napis cislo"))
-if x%7 ==0 or x%4 ==0:
-    print ("cislo je delitelne 7 alebo 4")
-else:
-    print ("cislo nie je delitelne 7 alebo 4")
+for i in range(1,21):
+    if i ==3:
+        print("3= nejde to")
+    else:
+        y = (i ** 2 - 1) / (i - 3)
+        print("x=",i,"y=",y,)
