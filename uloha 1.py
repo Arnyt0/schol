@@ -1,10 +1,6 @@
-cislo = int(input("Zadaj prirodzené číslo: "))
-
-sucet = 0
-
-while cislo > 0:
-    posledna_cifra = cislo % 10
-    sucet += posledna_cifra
-    cislo //= 10
-
-print("Ciferný súčet je:", sucet)
+x= (int(input("zadaj cislo")))
+y= (int(input("zadaj druhe cislo")))
+if x*y>100:
+    print("dostatocne")
+else:
+    print("nedostatocne")

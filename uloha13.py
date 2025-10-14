@@ -1,7 +1,12 @@
-x = int(input("koniec cislo: "))
-suma = 0
-for i in range(1,x+1):
-    if i%2==0:
-        suma += i
+cislo = int(input("Zadaj číslo v desiatkovej sústave: "))
 
-print(suma)
+dvojkove = 0
+nasobok = 1
+
+while cislo > 0:
+    posledna_cifra = cislo % 2
+    dvojkove += posledna_cifra * nasobok
+    nasobok *= 10
+    cislo //= 2
+
+print("Číslo v dvojkovej sústave je:", dvojkove)
